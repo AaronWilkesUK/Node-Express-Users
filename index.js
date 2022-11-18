@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use('/users', userRoutes);
 
 app.get('/', (req, res) => {
-    res.send("Hello From Homepage");
+    res.send("Try looking under /users");
 })
 
 app.listen(PORT, () => {
